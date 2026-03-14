@@ -1,0 +1,1272 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Administrador",
+      "email": "admin@compia.com",
+      "password": "admin123",
+      "role": "admin",
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "name": "João Silva",
+      "email": "joao@email.com",
+      "password": "123456",
+      "role": "customer",
+      "createdAt": "2025-01-10T00:00:00.000Z"
+    },
+    {
+      "name": "Jonathan Soares",
+      "email": "jonathan@email.com",
+      "password": "123456",
+      "role": "customer",
+      "createdAt": "2026-03-13T20:08:53.560Z",
+      "id": "ABW9fmg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Inteligência Artificial: Uma Abordagem Moderna",
+      "author": "Stuart Russell & Peter Norvig",
+      "description": "A bíblia da IA moderna. Cobre todos os aspectos da inteligência artificial, de algoritmos de busca a aprendizado profundo.",
+      "price": 189.9,
+      "stock": 990,
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&q=80",
+      "category": "Fundamentos",
+      "rating": 4.9,
+      "pages": 1132,
+      "type": "E-book"
+    },
+    {
+      "id": 2,
+      "title": "Deep Learning",
+      "author": "Ian Goodfellow, Yoshua Bengio & Aaron Courville",
+      "description": "O livro definitivo sobre redes neurais profundas.",
+      "price": 50,
+      "stock": 1,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80",
+      "category": "Deep Learning",
+      "rating": 4.8,
+      "pages": 800,
+      "type": "Livro Físico"
+    },
+    {
+      "id": 3,
+      "title": "Mãos à Obra: Aprendizado de Máquina com Scikit-Learn e TensorFlow",
+      "author": "Aurélien Géron",
+      "description": "Guia prático de Machine Learning com exemplos reais.",
+      "price": 159.9,
+      "stock": 20,
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&q=80",
+      "category": "Machine Learning",
+      "rating": 4.7,
+      "pages": 624,
+      "type": "Livro Físico"
+    },
+    {
+      "id": 4,
+      "title": "Natural Language Processing with Transformers",
+      "author": "Lewis Tunstall, Leandro von Werra & Thomas Wolf",
+      "description": "Domine NLP com Transformers e Hugging Face.",
+      "price": 179.9,
+      "stock": 11,
+      "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01",
+      "category": "NLP",
+      "rating": 4.6,
+      "pages": 422,
+      "type": "Livro Físico"
+    },
+    {
+      "id": 5,
+      "title": "Reinforcement Learning: An Introduction",
+      "author": "Richard S. Sutton & Andrew G. Barto",
+      "description": "Obra fundamental em aprendizado por reforço.",
+      "price": 199.9,
+      "stock": 6,
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&q=80",
+      "category": "Reinforcement Learning",
+      "rating": 4.8,
+      "pages": 552,
+      "type": "Livro Físico"
+    },
+    {
+      "id": 6,
+      "title": "Computer Vision: Algorithms and Applications",
+      "author": "Richard Szeliski",
+      "description": "Referência completa em visão computacional.",
+      "price": 209.9,
+      "stock": 10,
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+      "category": "Visão Computacional",
+      "rating": 4.5,
+      "pages": 979,
+      "type": "Livro Físico"
+    },
+    {
+      "id": 7,
+      "title": "Generative AI: LLMs, Diffusion Models and Beyond",
+      "author": "David Foster",
+      "description": "Guia sobre IA Generativa e modelos de difusão.",
+      "price": 10,
+      "stock": 18,
+      "image": "https://images.unsplash.com/photo-1676299081847-824916de030a?w=400&q=80",
+      "category": "IA Generativa",
+      "rating": 4.7,
+      "pages": 368,
+      "type": "Livro Físico"
+    },
+    {
+      "id": 8,
+      "title": "MLOps: Machine Learning Engineering em Produção",
+      "author": "Mark Treveil & Nicolas Omont",
+      "description": "Boas práticas para colocar ML em produção.",
+      "price": 149.9,
+      "stock": 7,
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&q=80",
+      "category": "MLOps",
+      "rating": 4.4,
+      "pages": 298,
+      "type": "Livro Físico"
+    },
+    {
+      "id": 9,
+      "title": "IA Ética: Construindo Sistemas Responsáveis",
+      "author": "Rachel Thomas & Jeremy Howard",
+      "description": "Viés algorítmico e IA responsável.",
+      "price": 139.9,
+      "stock": 12,
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=400&q=80",
+      "category": "IA Ética",
+      "rating": 4.5,
+      "pages": 312,
+      "type": "Livro Físico"
+    },
+    {
+      "id": 10,
+      "title": "Graph Neural Networks in Action",
+      "author": "Keita Broadwater",
+      "description": "Redes neurais em grafos.",
+      "price": 189.9,
+      "stock": 7,
+      "image": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&q=80",
+      "category": "Deep Learning",
+      "rating": 4.3,
+      "pages": 376,
+      "type": "Livro Físico"
+    },
+    {
+      "id": 11,
+      "title": "Probabilistic Machine Learning: An Introduction",
+      "author": "Kevin P. Murphy",
+      "description": "Fundamentos probabilísticos do ML.",
+      "price": 229.9,
+      "stock": 10,
+      "image": "https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?w=400&q=80",
+      "category": "Machine Learning",
+      "rating": 4.9,
+      "pages": 864,
+      "type": "Livro Físico"
+    },
+    {
+      "id": 12,
+      "title": "Autonomous Agents: From Theory to Practice",
+      "author": "Michael Wooldridge",
+      "description": "Sistemas multiagente e agentes autônomos.",
+      "price": 159.9,
+      "stock": 7,
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&q=80",
+      "category": "Agentes IA",
+      "rating": 4.4,
+      "pages": 448,
+      "type": "Livro Físico"
+    },
+    {
+      "title": "PLN ",
+      "author": "Pedro",
+      "description": "Ixxx",
+      "price": 10,
+      "stock": 996,
+      "image": "https://plus.unsplash.com/premium_photo-1674761263802-5d85d461f3f9?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "NLP",
+      "type": "E-book",
+      "rating": 4.5,
+      "pages": 30,
+      "id": 13
+    }
+  ],
+  "orders": [
+    {
+      "date": "2026-03-12T03:05:57.419Z",
+      "customer": "PEDRO HENRIQUE SARMENTO PEREIRA",
+      "userEmail": "pedrohenriquesarmento2015@gmail.com",
+      "userId": "2",
+      "items": [
+        {
+          "id": 2,
+          "title": "Deep Learning",
+          "price": 219.9,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80"
+        },
+        {
+          "id": 1,
+          "title": "Inteligência Artificial: Uma Abordagem Moderna",
+          "price": 189.9,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&q=80"
+        }
+      ],
+      "total": 409.8,
+      "status": "Processando",
+      "paymentMethod": "Cartão de Crédito",
+      "address": "Av, 10 - Apto 102 - Tenente Ananias/RN",
+      "id": 1
+    },
+    {
+      "date": "2026-03-12T03:10:27.455Z",
+      "customer": "PEDRO HENRIQUE SARMENTO PEREIRA",
+      "userEmail": "pedrohenriquesarmento2015@gmail.com",
+      "userId": "2",
+      "items": [
+        {
+          "id": 1,
+          "title": "Inteligência Artificial: Uma Abordagem Moderna",
+          "price": 189.9,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&q=80"
+        },
+        {
+          "id": 2,
+          "title": "Deep Learning",
+          "price": 219.9,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80"
+        }
+      ],
+      "total": 409.8,
+      "status": "Processando",
+      "paymentMethod": "PIX",
+      "address": "21213, 123213 - 213 - Tenente Ananias/RN",
+      "id": 2
+    },
+    {
+      "date": "2026-03-12T03:11:04.898Z",
+      "customer": "regert",
+      "userEmail": "retretre@gma",
+      "userId": "2",
+      "items": [
+        {
+          "id": 1,
+          "title": "Inteligência Artificial: Uma Abordagem Moderna",
+          "price": 189.9,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&q=80"
+        },
+        {
+          "id": 2,
+          "title": "Deep Learning",
+          "price": 219.9,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80"
+        }
+      ],
+      "total": 409.8,
+      "status": "Aprovado",
+      "paymentMethod": "PIX",
+      "address": "213213123, 321123231 - 23123 - 213321/MT",
+      "id": 3
+    },
+    {
+      "date": "2026-03-13T23:56:41.658Z",
+      "customer": "",
+      "userEmail": "",
+      "userId": "1",
+      "items": [
+        {
+          "id": 1,
+          "title": "Inteligência Artificial: Uma Abordagem Moderna",
+          "price": 189.9,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&q=80",
+          "type": "E-book"
+        },
+        {
+          "id": 2,
+          "title": "Deep Learning",
+          "price": 50,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80",
+          "type": "Livro Físico"
+        }
+      ],
+      "downloads": [
+        {
+          "title": "Inteligência Artificial: Uma Abordagem Moderna",
+          "link": "/downloads/1.pdf"
+        }
+      ],
+      "total": 239.9,
+      "status": "Aprovado",
+      "paymentMethod": "PIX",
+      "deliveryMethod": "delivery",
+      "address": ",  - /",
+      "id": 4
+    },
+    {
+      "date": "2026-03-14T00:04:16.051Z",
+      "customer": "PEDRO HENRIQUE SARMENTO PEREIRA",
+      "userEmail": "pedrohenriquesarmento2015@gmail.com",
+      "userId": "1",
+      "items": [
+        {
+          "id": 1,
+          "title": "Inteligência Artificial: Uma Abordagem Moderna",
+          "price": 189.9,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&q=80",
+          "type": "E-book"
+        },
+        {
+          "id": 2,
+          "title": "Deep Learning",
+          "price": 50,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80",
+          "type": "Livro Físico"
+        }
+      ],
+      "downloads": [
+        {
+          "title": "Inteligência Artificial: Uma Abordagem Moderna",
+          "link": "/downloads/1.pdf"
+        }
+      ],
+      "total": 239.9,
+      "status": "Aprovado",
+      "paymentMethod": "PIX",
+      "deliveryMethod": "delivery",
+      "address": "wqd, wqd - Tenente Ananias/RN",
+      "id": 5
+    },
+    {
+      "date": "2026-03-14T00:14:59.864Z",
+      "customer": "",
+      "userEmail": "",
+      "userId": "1",
+      "items": [
+        {
+          "id": 2,
+          "title": "Deep Learning",
+          "author": "Ian Goodfellow, Yoshua Bengio & Aaron Courville",
+          "description": "O livro definitivo sobre redes neurais profundas.",
+          "price": 50,
+          "stock": 7,
+          "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80",
+          "category": "Deep Learning",
+          "rating": 4.8,
+          "pages": 800,
+          "type": "Livro Físico",
+          "quantity": 1
+        },
+        {
+          "id": 1,
+          "title": "Inteligência Artificial: Uma Abordagem Moderna",
+          "author": "Stuart Russell & Peter Norvig",
+          "description": "A bíblia da IA moderna. Cobre todos os aspectos da inteligência artificial, de algoritmos de busca a aprendizado profundo.",
+          "price": 189.9,
+          "stock": 996,
+          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&q=80",
+          "category": "Fundamentos",
+          "rating": 4.9,
+          "pages": 1132,
+          "type": "E-book",
+          "quantity": 1
+        }
+      ],
+      "downloads": [
+        {
+          "title": "Inteligência Artificial: Uma Abordagem Moderna",
+          "link": "/downloads/1.pdf"
+        }
+      ],
+      "total": 239.9,
+      "status": "Aprovado",
+      "paymentMethod": "Cartão",
+      "id": 6
+    },
+    {
+      "date": "2026-03-14T00:51:15.415Z",
+      "customer": "Pedro Henrique Sarmento Pereira",
+      "userEmail": "pedrohenriquesarmento2015@gmail.com",
+      "userId": "1",
+      "items": [
+        {
+          "id": 1,
+          "title": "Inteligência Artificial: Uma Abordagem Moderna",
+          "author": "Stuart Russell & Peter Norvig",
+          "description": "A bíblia da IA moderna. Cobre todos os aspectos da inteligência artificial, de algoritmos de busca a aprendizado profundo.",
+          "price": 189.9,
+          "stock": 995,
+          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&q=80",
+          "category": "Fundamentos",
+          "rating": 4.9,
+          "pages": 1132,
+          "type": "E-book",
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "title": "Deep Learning",
+          "author": "Ian Goodfellow, Yoshua Bengio & Aaron Courville",
+          "description": "O livro definitivo sobre redes neurais profundas.",
+          "price": 50,
+          "stock": 6,
+          "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80",
+          "category": "Deep Learning",
+          "rating": 4.8,
+          "pages": 800,
+          "type": "Livro Físico",
+          "quantity": 1
+        }
+      ],
+      "downloads": [
+        {
+          "title": "Inteligência Artificial: Uma Abordagem Moderna",
+          "link": "/downloads/1.pdf"
+        }
+      ],
+      "total": 239.9,
+      "status": "Aprovado",
+      "paymentMethod": "PIX",
+      "id": 7
+    },
+    {
+      "date": "2026-03-14T00:52:37.195Z",
+      "customer": "fasgas",
+      "userEmail": "pedrohenriquesarmento2015@gmail.com",
+      "userId": "1",
+      "items": [
+        {
+          "id": 1,
+          "title": "Inteligência Artificial: Uma Abordagem Moderna",
+          "author": "Stuart Russell & Peter Norvig",
+          "description": "A bíblia da IA moderna. Cobre todos os aspectos da inteligência artificial, de algoritmos de busca a aprendizado profundo.",
+          "price": 189.9,
+          "stock": 994,
+          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&q=80",
+          "category": "Fundamentos",
+          "rating": 4.9,
+          "pages": 1132,
+          "type": "E-book",
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "title": "Deep Learning",
+          "author": "Ian Goodfellow, Yoshua Bengio & Aaron Courville",
+          "description": "O livro definitivo sobre redes neurais profundas.",
+          "price": 50,
+          "stock": 5,
+          "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80",
+          "category": "Deep Learning",
+          "rating": 4.8,
+          "pages": 800,
+          "type": "Livro Físico",
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "title": "Mãos à Obra: Aprendizado de Máquina com Scikit-Learn e TensorFlow",
+          "author": "Aurélien Géron",
+          "description": "Guia prático de Machine Learning com exemplos reais.",
+          "price": 159.9,
+          "stock": 22,
+          "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&q=80",
+          "category": "Machine Learning",
+          "rating": 4.7,
+          "pages": 624,
+          "type": "Livro Físico",
+          "quantity": 1
+        },
+        {
+          "title": "PLN ",
+          "author": "Pedro",
+          "description": "Ixxx",
+          "price": 10,
+          "stock": 999,
+          "image": "https://plus.unsplash.com/premium_photo-1674761263802-5d85d461f3f9?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "category": "NLP",
+          "type": "E-book",
+          "rating": 4.5,
+          "pages": 30,
+          "id": 13,
+          "quantity": 1
+        }
+      ],
+      "downloads": [
+        {
+          "title": "Inteligência Artificial: Uma Abordagem Moderna",
+          "link": "/downloads/1.pdf"
+        },
+        {
+          "title": "PLN ",
+          "link": "/downloads/13.pdf"
+        }
+      ],
+      "total": 409.8,
+      "status": "Aprovado",
+      "paymentMethod": "PIX",
+      "id": 8
+    },
+    {
+      "date": "2026-03-14T00:58:43.072Z",
+      "customer": "qwer",
+      "userEmail": "pedrohenriquesarmento2015@gmail.com",
+      "userId": "1",
+      "items": [
+        {
+          "id": 1,
+          "title": "Inteligência Artificial: Uma Abordagem Moderna",
+          "author": "Stuart Russell & Peter Norvig",
+          "description": "A bíblia da IA moderna. Cobre todos os aspectos da inteligência artificial, de algoritmos de busca a aprendizado profundo.",
+          "price": 189.9,
+          "stock": 993,
+          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&q=80",
+          "category": "Fundamentos",
+          "rating": 4.9,
+          "pages": 1132,
+          "type": "E-book",
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "title": "Deep Learning",
+          "author": "Ian Goodfellow, Yoshua Bengio & Aaron Courville",
+          "description": "O livro definitivo sobre redes neurais profundas.",
+          "price": 50,
+          "stock": 4,
+          "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80",
+          "category": "Deep Learning",
+          "rating": 4.8,
+          "pages": 800,
+          "type": "Livro Físico",
+          "quantity": 1
+        }
+      ],
+      "downloads": [
+        {
+          "title": "Inteligência Artificial: Uma Abordagem Moderna",
+          "link": "/downloads/1.pdf"
+        }
+      ],
+      "total": 239.9,
+      "status": "Aprovado",
+      "paymentMethod": "Cartão",
+      "id": 9
+    },
+    {
+      "date": "2026-03-14T00:59:47.256Z",
+      "customer": "Pedro",
+      "userEmail": "pedrohenriquesarmento2015@gmail.com",
+      "userId": "1",
+      "items": [
+        {
+          "id": 12,
+          "title": "Autonomous Agents: From Theory to Practice",
+          "author": "Michael Wooldridge",
+          "description": "Sistemas multiagente e agentes autônomos.",
+          "price": 159.9,
+          "stock": 9,
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&q=80",
+          "category": "Agentes IA",
+          "rating": 4.4,
+          "pages": 448,
+          "type": "Livro Físico",
+          "quantity": 1
+        }
+      ],
+      "downloads": [],
+      "total": 159.9,
+      "status": "Aprovado",
+      "paymentMethod": "Cartão",
+      "id": 10
+    },
+    {
+      "date": "2026-03-14T01:05:56.080Z",
+      "customer": "Pedro",
+      "userEmail": "pedrohenriquesarmento2015@gmail.com",
+      "userId": "1",
+      "items": [
+        {
+          "id": 12,
+          "title": "Autonomous Agents: From Theory to Practice",
+          "author": "Michael Wooldridge",
+          "description": "Sistemas multiagente e agentes autônomos.",
+          "price": 159.9,
+          "stock": 8,
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&q=80",
+          "category": "Agentes IA",
+          "rating": 4.4,
+          "pages": 448,
+          "type": "Livro Físico",
+          "quantity": 1
+        },
+        {
+          "id": 9,
+          "title": "IA Ética: Construindo Sistemas Responsáveis",
+          "author": "Rachel Thomas & Jeremy Howard",
+          "description": "Viés algorítmico e IA responsável.",
+          "price": 139.9,
+          "stock": 13,
+          "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=400&q=80",
+          "category": "IA Ética",
+          "rating": 4.5,
+          "pages": 312,
+          "type": "Livro Físico",
+          "quantity": 1
+        }
+      ],
+      "downloads": [],
+      "total": 299.8,
+      "status": "Aprovado",
+      "paymentMethod": "Cartão",
+      "id": 11
+    },
+    {
+      "date": "2026-03-14T01:12:58.063Z",
+      "customer": "q",
+      "userEmail": "wsa@fff.com",
+      "userId": "1",
+      "items": [
+        {
+          "id": 1,
+          "title": "Inteligência Artificial: Uma Abordagem Moderna",
+          "author": "Stuart Russell & Peter Norvig",
+          "description": "A bíblia da IA moderna. Cobre todos os aspectos da inteligência artificial, de algoritmos de busca a aprendizado profundo.",
+          "price": 189.9,
+          "stock": 991,
+          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&q=80",
+          "category": "Fundamentos",
+          "rating": 4.9,
+          "pages": 1132,
+          "type": "E-book",
+          "quantity": 1
+        }
+      ],
+      "downloads": [
+        {
+          "title": "Inteligência Artificial: Uma Abordagem Moderna",
+          "link": "/downloads/1.pdf"
+        }
+      ],
+      "total": 189.9,
+      "status": "Processando",
+      "paymentMethod": "Cartão",
+      "deliveryMethod": "Retirada",
+      "id": 12
+    },
+    {
+      "date": "2026-03-14T01:17:43.515Z",
+      "customer": "Pedro",
+      "userEmail": "pedrohenriquesarmento2015@gmail.com",
+      "userId": "1",
+      "items": [
+        {
+          "id": 2,
+          "title": "Deep Learning",
+          "author": "Ian Goodfellow, Yoshua Bengio & Aaron Courville",
+          "description": "O livro definitivo sobre redes neurais profundas.",
+          "price": 50,
+          "stock": 2,
+          "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80",
+          "category": "Deep Learning",
+          "rating": 4.8,
+          "pages": 800,
+          "type": "Livro Físico",
+          "quantity": 1
+        }
+      ],
+      "downloads": [],
+      "total": 69.9,
+      "status": "Aprovado",
+      "paymentMethod": "Cartão",
+      "deliveryMethod": "Entrega",
+      "address": "Pedro, 123 - 213, Tenente Ananias/RN — CEP 59955000",
+      "id": 13
+    },
+    {
+      "date": "2026-03-14T01:20:51.034Z",
+      "customer": "Pedro",
+      "userEmail": "pedrohenriquesarmento2015@gmail.com",
+      "userId": "2",
+      "items": [
+        {
+          "title": "PLN ",
+          "author": "Pedro",
+          "description": "Ixxx",
+          "price": 10,
+          "stock": 998,
+          "image": "https://plus.unsplash.com/premium_photo-1674761263802-5d85d461f3f9?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "category": "NLP",
+          "type": "E-book",
+          "rating": 4.5,
+          "pages": 30,
+          "id": 13,
+          "quantity": 1
+        }
+      ],
+      "downloads": [
+        {
+          "title": "PLN ",
+          "link": "/downloads/13.pdf"
+        }
+      ],
+      "total": 10,
+      "status": "Aprovado",
+      "paymentMethod": "PIX",
+      "deliveryMethod": "Digital",
+      "id": 14
+    },
+    {
+      "date": "2026-03-14T01:29:16.990Z",
+      "customer": "Pedro",
+      "userEmail": "pedrohenriquesarmento2015@gmail.com",
+      "userId": "2",
+      "items": [
+        {
+          "id": 4,
+          "title": "Natural Language Processing with Transformers",
+          "author": "Lewis Tunstall, Leandro von Werra & Thomas Wolf",
+          "description": "Domine NLP com Transformers e Hugging Face.",
+          "price": 179.9,
+          "stock": 12,
+          "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01",
+          "category": "NLP",
+          "rating": 4.6,
+          "pages": 422,
+          "type": "Livro Físico",
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "title": "Mãos à Obra: Aprendizado de Máquina com Scikit-Learn e TensorFlow",
+          "author": "Aurélien Géron",
+          "description": "Guia prático de Machine Learning com exemplos reais.",
+          "price": 159.9,
+          "stock": 21,
+          "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&q=80",
+          "category": "Machine Learning",
+          "rating": 4.7,
+          "pages": 624,
+          "type": "Livro Físico",
+          "quantity": 1
+        }
+      ],
+      "downloads": [],
+      "total": 339.8,
+      "status": "Aprovado",
+      "paymentMethod": "PIX",
+      "deliveryMethod": "Retirada",
+      "id": 15
+    },
+    {
+      "date": "2026-03-14T01:30:27.869Z",
+      "customer": "Jose",
+      "userEmail": "pedrohenriquesarmento2015@gmail.com",
+      "userId": "2",
+      "items": [
+        {
+          "title": "PLN ",
+          "author": "Pedro",
+          "description": "Ixxx",
+          "price": 10,
+          "stock": 997,
+          "image": "https://plus.unsplash.com/premium_photo-1674761263802-5d85d461f3f9?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "category": "NLP",
+          "type": "E-book",
+          "rating": 4.5,
+          "pages": 30,
+          "id": 13,
+          "quantity": 1
+        }
+      ],
+      "downloads": [
+        {
+          "title": "PLN ",
+          "link": "/downloads/13.pdf"
+        }
+      ],
+      "total": 10,
+      "status": "Concluído",
+      "paymentMethod": "PIX",
+      "deliveryMethod": "Digital",
+      "id": 16
+    }
+  ],
+  "logs": [
+    {
+      "description": "Login realizado por admin@compia.com (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-12T00:33:29.300Z",
+      "id": 1
+    },
+    {
+      "description": "Logout: admin@compia.com (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-12T00:34:31.781Z",
+      "id": 2
+    },
+    {
+      "description": "Login realizado por joao@email.com (por joao@email.com)",
+      "actor": "joao@email.com",
+      "timestamp": "2026-03-12T00:53:15.822Z",
+      "id": 3
+    },
+    {
+      "description": "Logout: joao@email.com (por joao@email.com)",
+      "actor": "joao@email.com",
+      "timestamp": "2026-03-12T01:26:02.126Z",
+      "id": 4
+    },
+    {
+      "description": "Login realizado por joao@email.com (por joao@email.com)",
+      "actor": "joao@email.com",
+      "timestamp": "2026-03-12T01:49:29.055Z",
+      "id": 5
+    },
+    {
+      "description": "Compra finalizada: Pedido #1 - R$ 409.80 (por joao@email.com)",
+      "actor": "joao@email.com",
+      "timestamp": "2026-03-12T03:05:57.736Z",
+      "id": 6
+    },
+    {
+      "description": "Compra finalizada: Pedido #2 - R$ 409.80 (por joao@email.com)",
+      "actor": "joao@email.com",
+      "timestamp": "2026-03-12T03:10:27.757Z",
+      "id": 7
+    },
+    {
+      "description": "Compra finalizada: Pedido #3 - R$ 409.80 (por joao@email.com)",
+      "actor": "joao@email.com",
+      "timestamp": "2026-03-12T03:11:05.175Z",
+      "id": 8
+    },
+    {
+      "description": "Logout: joao@email.com (por joao@email.com)",
+      "actor": "joao@email.com",
+      "timestamp": "2026-03-12T03:17:52.725Z",
+      "id": 9
+    },
+    {
+      "description": "Login realizado por joao@email.com (por joao@email.com)",
+      "actor": "joao@email.com",
+      "timestamp": "2026-03-12T03:18:12.813Z",
+      "id": 10
+    },
+    {
+      "description": "Logout: joao@email.com (por joao@email.com)",
+      "actor": "joao@email.com",
+      "timestamp": "2026-03-12T03:22:54.998Z",
+      "id": 11
+    },
+    {
+      "description": "Login realizado por admin@compia.com (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-12T03:23:09.617Z",
+      "id": 12
+    },
+    {
+      "description": "Status do pedido 3 alterado para \"Processando\" (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-12T03:23:27.635Z",
+      "id": 13
+    },
+    {
+      "description": "Status do pedido 2 alterado para \"Processando\" (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-12T03:23:30.462Z",
+      "id": 14
+    },
+    {
+      "description": "Status do pedido 1 alterado para \"Processando\" (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-12T03:23:32.079Z",
+      "id": 15
+    },
+    {
+      "description": "Logout: admin@compia.com (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-12T03:23:41.435Z",
+      "id": 16
+    },
+    {
+      "description": "Login realizado por joao@email.com (por joao@email.com)",
+      "actor": "joao@email.com",
+      "timestamp": "2026-03-12T03:24:08.482Z",
+      "id": 17
+    },
+    {
+      "description": "Logout: joao@email.com (por joao@email.com)",
+      "actor": "joao@email.com",
+      "timestamp": "2026-03-12T03:24:20.678Z",
+      "id": 18
+    },
+    {
+      "description": "Login realizado por joao@email.com (por joao@email.com)",
+      "actor": "joao@email.com",
+      "timestamp": "2026-03-13T19:35:44.971Z",
+      "id": 19
+    },
+    {
+      "description": "Logout: joao@email.com (por joao@email.com)",
+      "actor": "joao@email.com",
+      "timestamp": "2026-03-13T20:08:06.627Z",
+      "id": 20
+    },
+    {
+      "description": "Novo cadastro: jonathan@email.com (por jonathan@email.com)",
+      "actor": "jonathan@email.com",
+      "timestamp": "2026-03-13T20:08:53.586Z",
+      "id": 21
+    },
+    {
+      "description": "Logout: jonathan@email.com (por jonathan@email.com)",
+      "actor": "jonathan@email.com",
+      "timestamp": "2026-03-13T20:09:30.136Z",
+      "id": 22
+    },
+    {
+      "description": "Login realizado por admin@compia.com (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T20:09:49.004Z",
+      "id": 23
+    },
+    {
+      "description": "Produto \"Deep Learning\" atualizado (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T20:10:45.232Z",
+      "id": 24
+    },
+    {
+      "description": "Logout: admin@compia.com (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T20:11:09.895Z",
+      "id": 25
+    },
+    {
+      "description": "Login realizado por admin@compia.com (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T20:11:38.595Z",
+      "id": 26
+    },
+    {
+      "description": "Produto \"Probabilistic Machine Learning: An Introduction\" atualizado (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T20:12:05.106Z",
+      "id": 27
+    },
+    {
+      "description": "Logout: admin@compia.com (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T20:12:17.229Z",
+      "id": 28
+    },
+    {
+      "description": "Login realizado por admin@compia.com (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T20:14:15.143Z",
+      "id": 29
+    },
+    {
+      "description": "Status do pedido 3 alterado para \"Cancelado\" (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T20:14:33.987Z",
+      "id": 30
+    },
+    {
+      "description": "Status do pedido 3 alterado para \"Processando\" (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T20:14:42.440Z",
+      "id": 31
+    },
+    {
+      "description": "Status do pedido 3 alterado para \"Em Separação\" (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T20:14:43.538Z",
+      "id": 32
+    },
+    {
+      "description": "Status do pedido 3 alterado para \"Enviado\" (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T20:14:44.150Z",
+      "id": 33
+    },
+    {
+      "description": "Status do pedido 3 alterado para \"Concluído\" (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T20:14:47.227Z",
+      "id": 34
+    },
+    {
+      "description": "Status do pedido 3 alterado para \"Concluído\" (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T20:14:49.231Z",
+      "id": 35
+    },
+    {
+      "description": "Status do pedido 3 alterado para \"Processando\" (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T20:14:50.283Z",
+      "id": 36
+    },
+    {
+      "description": "Status do pedido 3 alterado para \"Cancelado\" (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T20:14:52.146Z",
+      "id": 37
+    },
+    {
+      "description": "Status do pedido 3 alterado para \"Enviado\" (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T20:14:56.984Z",
+      "id": 38
+    },
+    {
+      "description": "Produto \"Natural Language Processing with Transformers\" atualizado (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T20:16:57.111Z",
+      "id": 39
+    },
+    {
+      "description": "Logout: admin@compia.com (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T20:17:06.392Z",
+      "id": 40
+    },
+    {
+      "description": "Login realizado por joao@email.com (por joao@email.com)",
+      "actor": "joao@email.com",
+      "timestamp": "2026-03-13T21:11:31.853Z",
+      "id": 41
+    },
+    {
+      "description": "Logout: joao@email.com (por joao@email.com)",
+      "actor": "joao@email.com",
+      "timestamp": "2026-03-13T21:12:09.057Z",
+      "id": 42
+    },
+    {
+      "description": "Login realizado por admin@compia.com (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T21:12:19.571Z",
+      "id": 43
+    },
+    {
+      "description": "Produto \"Inteligência Artificial: Uma Abordagem Moderna\" atualizado (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T21:12:52.353Z",
+      "id": 44
+    },
+    {
+      "description": "Produto \"Inteligência Artificial: Uma Abordagem Moderna\" atualizado (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T22:21:58.135Z",
+      "id": 45
+    },
+    {
+      "description": "Produto \"Deep Learning\" atualizado (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T22:23:17.053Z",
+      "id": 46
+    },
+    {
+      "description": "Produto \"Deep Learning\" atualizado (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T22:23:23.551Z",
+      "id": 47
+    },
+    {
+      "description": "Produto \"Deep Learning\" atualizado (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T22:23:33.885Z",
+      "id": 48
+    },
+    {
+      "description": "Status do pedido 3 alterado para \"Aprovado\" (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T23:17:17.481Z",
+      "id": 49
+    },
+    {
+      "description": "Status do pedido 3 alterado para \"Processando\" (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T23:17:17.945Z",
+      "id": 50
+    },
+    {
+      "description": "Status do pedido 3 alterado para \"Aprovado\" (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T23:17:18.752Z",
+      "id": 51
+    },
+    {
+      "description": "Produto \"Deep Learning\" atualizado (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T23:20:52.856Z",
+      "id": 52
+    },
+    {
+      "description": "Produto \"Generative AI: LLMs, Diffusion Models and Beyond\" atualizado (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T23:21:00.066Z",
+      "id": 53
+    },
+    {
+      "description": "Produto \"PLN \" criado (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T23:21:37.133Z",
+      "id": 54
+    },
+    {
+      "description": "Produto \"PLN \" atualizado (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T23:22:18.614Z",
+      "id": 55
+    },
+    {
+      "description": "Compra finalizada: Pedido #4 (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-13T23:56:41.960Z",
+      "id": 56
+    },
+    {
+      "description": "Compra finalizada: Pedido #5 (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-14T00:04:16.343Z",
+      "id": 57
+    },
+    {
+      "description": "Pedido #6 criado (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-14T00:15:00.169Z",
+      "id": 58
+    },
+    {
+      "description": "Pedido #7 criado (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-14T00:51:15.717Z",
+      "id": 59
+    },
+    {
+      "description": "Pedido #8 criado (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-14T00:52:37.474Z",
+      "id": 60
+    },
+    {
+      "description": "Pedido #9 criado (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-14T00:58:43.394Z",
+      "id": 61
+    },
+    {
+      "description": "Pedido #10 criado (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-14T00:59:47.290Z",
+      "id": 62
+    },
+    {
+      "description": "Pedido #11 criado (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-14T01:05:56.391Z",
+      "id": 63
+    },
+    {
+      "description": "Pedido #12 criado (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-14T01:12:58.093Z",
+      "id": 64
+    },
+    {
+      "description": "Status do pedido 12 alterado para \"Processando\" (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-14T01:15:30.467Z",
+      "id": 65
+    },
+    {
+      "description": "Pedido #13 criado (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-14T01:17:43.542Z",
+      "id": 66
+    },
+    {
+      "description": "Logout: admin@compia.com (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-14T01:19:13.112Z",
+      "id": 67
+    },
+    {
+      "description": "Login realizado por joao@email.com (por joao@email.com)",
+      "actor": "joao@email.com",
+      "timestamp": "2026-03-14T01:19:23.860Z",
+      "id": 68
+    },
+    {
+      "description": "Pedido #14 criado (por joao@email.com)",
+      "actor": "joao@email.com",
+      "timestamp": "2026-03-14T01:20:51.058Z",
+      "id": 69
+    },
+    {
+      "description": "Logout: joao@email.com (por joao@email.com)",
+      "actor": "joao@email.com",
+      "timestamp": "2026-03-14T01:21:07.964Z",
+      "id": 70
+    },
+    {
+      "description": "Login realizado por admin@compia.com (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-14T01:21:17.785Z",
+      "id": 71
+    },
+    {
+      "description": "Logout: admin@compia.com (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-14T01:26:44.148Z",
+      "id": 72
+    },
+    {
+      "description": "Login realizado por joao@email.com (por joao@email.com)",
+      "actor": "joao@email.com",
+      "timestamp": "2026-03-14T01:26:57.226Z",
+      "id": 73
+    },
+    {
+      "description": "Pedido #15 criado (por joao@email.com)",
+      "actor": "joao@email.com",
+      "timestamp": "2026-03-14T01:29:17.313Z",
+      "id": 74
+    },
+    {
+      "description": "Pedido #16 criado (por joao@email.com)",
+      "actor": "joao@email.com",
+      "timestamp": "2026-03-14T01:30:27.901Z",
+      "id": 75
+    },
+    {
+      "description": "Logout: joao@email.com (por joao@email.com)",
+      "actor": "joao@email.com",
+      "timestamp": "2026-03-14T01:30:40.028Z",
+      "id": 76
+    },
+    {
+      "description": "Login realizado por admin@compia.com (por admin@compia.com)",
+      "actor": "admin@compia.com",
+      "timestamp": "2026-03-14T01:31:36.903Z",
+      "id": 77
+    }
+  ]
+}

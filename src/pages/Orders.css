@@ -1,0 +1,233 @@
+
+.orders-page { 
+  padding: 40px 0 80px 0; 
+  background: var(--bg);
+  min-height: 100vh;
+}
+
+.orders-list { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 16px; 
+  margin-top: 30px;
+}
+
+
+.order-card { 
+  overflow: hidden; 
+  transition: transform 0.2s ease, border-color 0.2s ease;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+}
+
+.order-card.is-expanded {
+  border-color: var(--accent);
+}
+
+
+.order-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 24px;
+  cursor: pointer;
+  gap: 16px;
+  flex-wrap: wrap;
+  transition: background 0.2s;
+}
+
+.order-header:hover { 
+  background: var(--bg-hover); 
+}
+
+.order-header-left { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 6px; 
+}
+
+.order-id {
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.order-meta { 
+  display: flex; 
+  gap: 16px; 
+  font-size: 13px; 
+  color: var(--text-muted); 
+  flex-wrap: wrap;
+  color:blanchedalmond;
+}
+
+.order-header-right { 
+  display: flex; 
+  align-items: center; 
+  gap: 20px; 
+  flex-shrink: 0; 
+}
+
+.order-status { 
+  font-size: 13px; 
+  font-weight: 600; 
+  letter-spacing: 0.02em; 
+}
+
+.order-total {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.order-toggle { 
+  color: var(--text-muted); 
+  font-size: 12px; 
+  transition: transform 0.3s ease;
+}
+
+.is-expanded .order-toggle {
+  transform: rotate(180deg);
+}
+
+.order-divider { 
+  height: 1px; 
+  background: var(--border); 
+}
+
+.order-books { 
+  padding: 20px 24px; 
+  display: flex; 
+  flex-direction: column; 
+  gap: 12px; 
+}
+
+.order-book { 
+  display: flex; 
+  align-items: center; 
+  gap: 14px; 
+}
+
+.order-book-img { 
+  width: 48px; 
+  height: 64px; 
+  object-fit: cover; 
+  border-radius: 6px; 
+  flex-shrink: 0; 
+}
+
+.order-book-info { 
+  flex: 1; 
+  min-width: 0; 
+}
+
+.order-book-title { 
+  font-weight: 600; 
+  font-size: 14px; 
+  display: block; 
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  color: var(--text);
+}
+
+.order-book-author { 
+  font-size: 12px; 
+  color: var(--text-muted); 
+}
+
+.order-book-price { 
+  text-align: right; 
+  display: flex; 
+  flex-direction: column; 
+  gap: 2px; 
+  font-size: 13px; 
+  color: var(--text-muted); 
+}
+
+.order-book-price strong { 
+  font-family: var(--font-display); 
+  font-size: 15px; 
+  color: var(--text); 
+}
+
+.order-details-grid {
+  display: grid;
+  grid-template-columns: 1fr 240px;
+  gap: 30px;
+  padding: 20px 24px;
+  background: rgba(255, 255, 255, 0.02);
+  border-top: 1px solid var(--border);
+}
+
+.delivery-info h4 {
+  font-family: var(--font-display);
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 10px;
+  letter-spacing: 0.05em;
+}
+
+.delivery-info p {
+  font-size: 13px;
+  line-height: 1.6;
+  color:blanchedalmond;
+}
+
+.order-totals {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-total-row { 
+  display: flex; 
+  justify-content: space-between; 
+  padding: 4px 0; 
+  font-size: 13px; 
+  color: var(--text-muted); 
+}
+
+.order-total-row.total { 
+  font-family: var(--font-display); 
+  font-size: 17px; 
+  font-weight: 800; 
+  color: var(--text); 
+  padding-top: 12px; 
+  border-top: 1px solid var(--border); 
+  margin-top: 8px; 
+}
+
+.empty-state {
+  text-align: center;
+  padding: 80px 20px;
+  background: var(--card-bg);
+  border-radius: var(--radius-lg);
+  border: 1px dashed var(--border);
+}
+
+.animate-in {
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .order-header { padding: 16px; }
+  
+  .order-header-right {
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+  }
+
+  .order-details-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
